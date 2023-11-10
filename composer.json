@@ -1,0 +1,35 @@
+{
+    "name": "momotolabs/mhsigner",
+    "description": "to generate sign dte docs for electronic bill in El Salvador",
+    "type": "library",
+    "require": {
+        "namshi/jose": "^7.2",
+        "illuminate/support": "^v10.0.0"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Momotolabs\\Mhsigner\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Momotolabs\\Mhsigner\\Tests": "tests"
+    },
+    "authors": [
+        {
+            "name": "José Chavarría",
+            "email": "jchavarria@momotolabs.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Momotolabs\\Mhsigner\\MhSignerProvider"
+            ],
+            "aliases": {
+                "MhSigner": "Momotolabs\\Mhsigner\\Mhsigner"
+            }
+        }
+    }
+}
