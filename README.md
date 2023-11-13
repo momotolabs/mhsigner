@@ -6,4 +6,4 @@ Paquete para el poder firmar los documentos DTE para ser trasmitidos al sistema 
 Salvador
 
 ## function 
-En la carpeta raiz del storage de laravel colocar el certificado proporcionado por el ministerio de hacienda
+En la carpeta  `storage\app` de laravel colocar el certificado proporcionado por el ministerio de hacienda
