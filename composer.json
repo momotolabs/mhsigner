@@ -6,7 +6,7 @@
         "namshi/jose": "^7.2",
         "illuminate/support": "^v10.0.0"
     },
-    "license": "GPL",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Momotolabs\\Mhsigner\\": "src/"
